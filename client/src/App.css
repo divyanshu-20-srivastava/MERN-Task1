@@ -1,0 +1,23 @@
+/* styles.css */
+@media only screen and (max-width: 600px) {
+  .flex-grow {
+    flex-basis: 50%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-grow > div {
+    flex-grow: 1;
+  }
+}
+
+/* For tablet devices */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Keep the layout as it is for tablets */
+}
+
+/* For laptop/desktop */
+@media only screen and (min-width: 1025px) {
+  /* Keep the layout as it is for laptops/desktops */
+}
